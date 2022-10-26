@@ -1,0 +1,32 @@
+/* features section */
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.features p {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  max-width: 50rem;
+  padding: 2rem 0rem 4rem;
+  text-align: center;
+  color: var(--grayish-blue);
+}
+
+.features ul {
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.features ul li a {
+  padding: 3rem 6rem;
+  color: var(--very-dark-blue);
+  font-weight: 500;
+  border-bottom: 1px solid var(--grayish-blue);
+}
+.features ul li a:hover {
+  border-bottom: 2px solid var(--soft-red);
+}

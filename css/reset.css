@@ -1,18 +1,36 @@
+/* css reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 img {
   display: block;
   max-width: 100%;
 }
+
 ul {
   list-style: none;
 }
-html {
-  font-size: 62.5;
+
+a {
+  text-decoration: none;
 }
+
+html {
+  font-size: 62.5%;
+}
+
 body {
-  background: #2c2c2c;
+  font-family: "Rubik", sans-serif;
+  /* background: #b8b4b4; */
+  font-size: 1.6rem;
+}
+
+/* container */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
 }

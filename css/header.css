@@ -1,0 +1,31 @@
+/* menu */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#logo {
+  flex: 2 1 180px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.menu-list li a {
+  color: var(--grayish-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  padding: 1.2rem 2rem;
+}
+
+.menu-list .loginBtn {
+  background-color: var(--soft-red);
+  color: white;
+  border-radius: 4px;
+}

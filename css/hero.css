@@ -1,0 +1,40 @@
+/* hero section*/
+.hero {
+  display: flex;
+  padding: 12rem 0rem;
+}
+
+.hero-text {
+  flex: 2;
+}
+
+.hero h1 {
+  font-size: 4.2rem;
+  max-width: 40rem;
+  color: var(--very-dark-blue);
+}
+
+.hero p {
+  font-size: 1.8rem;
+  color: var(--grayish-blue);
+  padding: 2rem 0rem 4rem 0rem;
+  max-width: 50rem;
+}
+
+.heroBtn {
+  padding: 1.4rem 2rem;
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.heroBtn.chrome {
+  background-color: var(--soft-blue);
+  color: white;
+}
+
+.heroBtn.firefox {
+  margin-left: 1rem;
+  background-color: rgb(235, 232, 232);
+  color: var(--very-dark-blue);
+}

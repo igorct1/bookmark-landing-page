@@ -16,6 +16,7 @@
 
 .hero p {
   font-size: 1.8rem;
+  line-height: 2.6rem;
   color: var(--grayish-blue);
   padding: 2rem 0rem 4rem 0rem;
   max-width: 50rem;

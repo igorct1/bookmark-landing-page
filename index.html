@@ -32,7 +32,7 @@
             <li><a href="#features">features</a></li>
             <li><a href="#faq">faq</a></li>
             <li><a href="#contact">contact</a></li>
-            <li><a class="loginBtn">login</a></li>
+            <li><a class="loginBtn" data-modal="menu">login</a></li>
           </ul>
         </nav>
       </header>
@@ -190,6 +190,18 @@
         </div>
       </div>
     </footer>
+    <section class="modal-container" data-modal="container">
+      <div class="modal">
+        <button data-modal="menuClose" class="menuClose">X</button>
+        <form action="#">
+          <label for="email">Email:</label>
+          <input type="text" for="email" id="email" />
+          <label for="password">Senha:</label>
+          <input type="password" for="password" id="password" />
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+    </section>
     <script type="module" src="./js/script.js"></script>
   </body>
 </html>

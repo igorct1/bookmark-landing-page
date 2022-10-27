@@ -1,5 +1,4 @@
 /* central section */
-
 .central {
   display: flex;
   padding: 8rem 0rem;
@@ -12,8 +11,9 @@
 }
 
 .central-text p {
-  padding: 4rem 0rem;
+  padding: 2rem 0rem 4rem;
 }
+
 .centralBtn {
   color: white;
   background: var(--soft-blue);

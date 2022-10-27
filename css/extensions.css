@@ -14,7 +14,6 @@
 .extension-text p {
   max-width: 55rem;
   text-align: center;
-  color: var(--grayish-blue);
   padding: 2rem 0rem;
 }
 
@@ -41,7 +40,6 @@
 }
 
 .card p {
-  color: var(--grayish-blue);
   margin-top: 1rem;
 }
 

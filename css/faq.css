@@ -1,0 +1,69 @@
+/* faq section */
+
+.faq {
+  padding: 4rem 0rem;
+}
+
+.faq-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-text h2 {
+  padding: 2rem 0rem;
+}
+
+.faq-text p {
+  color: var(--grayish-blue);
+  max-width: 50rem;
+  text-align: center;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-list dl {
+  margin: 4rem 0rem;
+}
+
+.faq-list dt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50rem;
+  font-size: 1.6rem;
+  color: var(--very-dark-blue);
+  padding: 2rem 0rem;
+  cursor: pointer;
+  border-top: 1px solid var(--grayish-blue);
+}
+
+.faq-list dl {
+  border-bottom: 1px solid var(--grayish-blue);
+}
+
+.faq-list dd {
+  display: none;
+  max-width: 40rem;
+  color: var(--grayish-blue);
+  line-height: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.faq-list dd.active {
+  display: block;
+}
+
+.faq a {
+  background: var(--soft-blue);
+  padding: 1.4rem 2rem;
+  border-radius: 4px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}

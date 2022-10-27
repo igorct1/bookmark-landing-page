@@ -1,0 +1,24 @@
+/* central section */
+
+.central {
+  display: flex;
+  padding: 8rem 0rem;
+}
+
+.central-text {
+  max-width: 45rem;
+  color: var(--grayish-blue);
+  margin-left: 16rem;
+}
+
+.central-text p {
+  padding: 4rem 0rem;
+}
+.centralBtn {
+  color: white;
+  background: var(--soft-blue);
+  padding: 1.4rem 2rem;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}

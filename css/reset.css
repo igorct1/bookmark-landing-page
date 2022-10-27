@@ -32,6 +32,10 @@ h2 {
   font-size: 3.2rem;
   color: var(--very-dark-blue);
 }
+p {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
 
 /* container */
 .container {

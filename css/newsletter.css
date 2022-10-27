@@ -1,7 +1,6 @@
 /* newsletter section */
 .bg {
   background: var(--soft-blue);
-  height: 30vh;
 }
 
 .news-wrapper {
@@ -9,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4rem 0rem;
+  padding: 6rem 0rem;
 }
 
 .news-wrapper h3 {

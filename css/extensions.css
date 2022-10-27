@@ -1,0 +1,69 @@
+/* extensions section */
+.extension {
+  padding: 4rem 0rem;
+}
+
+.extension-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.extension-text p {
+  max-width: 55rem;
+  text-align: center;
+  color: var(--grayish-blue);
+  padding: 2rem 0rem;
+}
+
+.extension-cards {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 105rem;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  height: 35rem;
+  width: 30rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.extension-icon {
+  padding: 2rem 0rem;
+}
+
+.card p {
+  color: var(--grayish-blue);
+  margin-top: 1rem;
+}
+
+.dot {
+  padding: 2rem 0rem;
+}
+
+.card button {
+  padding: 1.4rem 3rem;
+  background: var(--soft-blue);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.card:nth-child(2) {
+  margin-top: 4rem;
+}
+
+.card:nth-child(3) {
+  margin-top: 7rem;
+}

@@ -1,5 +1,4 @@
 /* features section */
-
 .features {
   display: flex;
   flex-direction: column;
@@ -11,7 +10,6 @@
   max-width: 50rem;
   padding: 2rem 0rem 4rem;
   text-align: center;
-  color: var(--grayish-blue);
 }
 
 .features ul {
@@ -25,6 +23,7 @@
   font-weight: 500;
   border-bottom: 1px solid var(--grayish-blue);
 }
+
 .features ul li a:hover {
   border-bottom: 2px solid var(--soft-red);
 }

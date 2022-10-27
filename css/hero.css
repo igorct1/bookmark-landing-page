@@ -15,7 +15,6 @@
 }
 
 .hero p {
-  color: var(--grayish-blue);
   padding: 2rem 0rem 4rem 0rem;
   max-width: 50rem;
 }

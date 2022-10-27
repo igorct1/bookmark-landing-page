@@ -1,11 +1,12 @@
 /* footer */
-
 footer {
   background-color: var(--very-dark-blue);
 }
+
 footer .container {
   padding: 2.4rem 8rem;
 }
+
 .footer-list {
   display: flex;
   align-items: center;
@@ -29,8 +30,10 @@ footer .container {
   margin-left: 6rem;
   letter-spacing: 0.1rem;
 }
+
 .footer-social {
   display: flex;
+  align-items: center;
 }
 
 .footer-social img {

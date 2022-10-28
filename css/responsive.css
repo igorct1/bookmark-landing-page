@@ -1,0 +1,151 @@
+@media (max-width: 1220px) {
+  .container {
+    max-width: 1220px;
+    padding: 4rem;
+  }
+
+  .hero-text {
+    flex-basis: 60rem;
+  }
+
+  html {
+    font-size: 57%;
+  }
+
+  .central {
+    padding: 6rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .central-text {
+    margin-left: 0rem;
+    margin-top: 6rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 879px) {
+  .container {
+    max-width: 879px;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-text {
+    text-align: center;
+    flex: 1;
+  }
+
+  .hero-text h1 {
+    max-width: 100%;
+    font-size: 3.6rem;
+  }
+
+  .hero-text {
+    order: 2;
+  }
+
+  .features ul {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+  }
+
+  .features ul li a {
+    text-align: center;
+    padding: 2rem;
+    display: block;
+  }
+
+  .extension {
+    margin-top: 4rem;
+  }
+
+  .extension-cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    height: 45rem;
+    width: 35rem;
+    margin-right: 0rem;
+  }
+
+  .card button {
+    margin-top: 2rem;
+  }
+
+  .faq-text {
+    text-align: center;
+  }
+
+  .faq-list dt {
+    width: 100%;
+  }
+
+  .footer-list {
+    flex-direction: column;
+  }
+
+  .footer-list-nav {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20vh;
+  }
+
+  .footer-list-nav li a {
+    margin-left: 0rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .footer-social img {
+    margin-left: 0rem;
+  }
+
+  .footer-social {
+    width: 10rem;
+    justify-content: space-evenly;
+  }
+  .modal {
+    margin: 0rem 2rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .container {
+    max-width: 475px;
+    padding: 3rem;
+  }
+
+  html {
+    font-size: 55%;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  .news-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsletter form button {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+
+  .footer-list-nav {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30vh;
+  }
+}

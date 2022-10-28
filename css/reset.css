@@ -44,4 +44,5 @@ p {
   max-width: 1440px;
   margin: 0 auto;
   padding: 4rem 8rem;
+  overflow-x: hidden;
 }

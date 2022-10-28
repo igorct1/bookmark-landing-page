@@ -6,10 +6,11 @@
 
 .hero-text {
   flex: 2;
+  margin-top: 4rem;
 }
 
 .hero h1 {
-  font-size: 4.2rem;
+  font-size: 3.8rem;
   max-width: 40rem;
   color: var(--very-dark-blue);
 }

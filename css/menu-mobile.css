@@ -2,19 +2,23 @@
   display: none;
   transition: 0.3s;
 }
+
 .menuMobile.active {
   display: block;
   z-index: 500;
   transform: rotate(90deg);
   transition: 0.3s;
 }
+
 @media (max-width: 978px) {
   #logo {
     z-index: 600;
   }
+
   .menu-list {
     display: none;
   }
+
   .menuMobile {
     display: block;
   }

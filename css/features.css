@@ -21,7 +21,7 @@
   padding: 3rem 6rem;
   color: var(--very-dark-blue);
   font-weight: 500;
-  border-bottom: 1px solid var(--grayish-blue);
+  border-bottom: 2px solid var(--grayish-blue);
 }
 
 .features ul li a:hover {
